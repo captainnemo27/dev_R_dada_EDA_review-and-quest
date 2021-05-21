@@ -1,0 +1,81 @@
+CONTENT
+
+The Happiness Score
+Tên đề tài: Chỉ số hạnh phúc trên thế giới
+
+Thành viên : 
+- Đào Văn Thắng 18133050
+- Đặng Ngọc Sơn 18133046
+- Trần Minh Tú Trung 18133060
+
+https://www.kaggle.com/mathurinache/world-happiness-report
+----------------------------------------------------------------------------------------------------------------
+
+The joy scores and rankings utilize information from the Gallup World Survey. 
+The scores are based on answers to the most life evaluation address inquired within the survey. 
+This address, known as the Cantril step, asks respondents to think of a step with the most excellent conceivable life for them being a 10 
+and the most exceedingly bad conceivable life being a and to rate their claim current lives on that scale. 
+The scores are from broadly agent tests for the a long time 2013-2016 and utilize the Gallup weights to create the gauges agent. 
+The columns taking after the bliss score assess the degree to which each of six variables – financial generation, social back, 
+life anticipation, flexibility, nonattendance of debasement, and liberality – contribute to making life assessments higher in 
+each nation than they are in Dystopia, a theoretical nation that has values rise to to the world’s least national midpoints for 
+each of the six variables. They have no affect on the full score detailed for each nation, but they do exp
+
+----------------------------------------------------------------------------------------------------------------
+This file contains the Happiness Score for 153 countries along with the factors used to explain the score.
+----------------------------------------------------------------------------------------------------------------
+
+The Happiness Score is a national average of the responses to the main life evaluation question asked in the Gallup World Poll (GWP), 
+which uses the Cantril Ladder.
+----------------------------------------------------------------------------------------------------------------
+The Happiness Score is explained by the following factors:
+
+GDP per capita
+Healthy Life Expectancy
+Social support
+Freedom to make life choices
+Generosity
+Corruption Perception
+
+
+
+Acknowledgements
+I did not create this data, only sourced it. The credit goes to the original Authors:
+
+Editors: John Helliwell, Richard Layard, Jeffrey D. Sachs, and Jan Emmanuel De Neve, Co-Editors; 
+Lara Aknin, Haifang Huang and Shun Wang, Associate Editors; and Sharon Paculor, Production Editor
+
+Citation:
+Helliwell, John F., Richard Layard, Jeffrey Sachs, and Jan-Emmanuel De Neve, eds. 2020. 
+World Happiness Report 2020. New York: Sustainable Development Solutions Network
+
+-----------------------------------------------------------------------------------------------------------------
+RangeIndex: 153 entries, 0 to 152
+Data columns (total 22 columns):
+ #   Column                                      Non-Null Count  Dtype  
+---  ------                                      --------------  -----  
+ 0   Country                                     153 non-null    object 
+ 1   Regional indicator                          153 non-null    object 
+ 2   Happiness Score                             153 non-null    float64
+ 3   Standard error of ladder score              153 non-null    float64
+ 4   upperwhisker                                153 non-null    float64
+ 5   lowerwhisker                                153 non-null    float64
+ 6   Economy (GDP per Capita)                    153 non-null    float64
+ 7   Family                                      153 non-null    float64
+ 8   Health (Life Expectancy)                    153 non-null    float64
+ 9   Freedom                                     153 non-null    float64
+ 10  Generosity                                  153 non-null    float64
+ 11  Trust (Government Corruption)               153 non-null    float64
+ 12  Ladder score in Dystopia                    153 non-null    float64
+ 13  Explained by: Log GDP per capita            153 non-null    float64
+ 14  Explained by: Social support                153 non-null    float64
+ 15  Explained by: Healthy life expectancy       153 non-null    float64
+ 16  Explained by: Freedom to make life choices  153 non-null    float64
+ 17  Explained by: Generosity                    153 non-null    float64
+ 18  Explained by: Perceptions of corruption     153 non-null    float64
+ 19  Dystopia + residual                         153 non-null    float64
+ 20  Happiness Rank                              153 non-null    int64  
+ 21  Year                                        153 non-null    int64  
+dtypes: float64(18), int64(2), object(2)
+memory usage: 26.4+ KB
+--------------------------------------------------------------------------------
